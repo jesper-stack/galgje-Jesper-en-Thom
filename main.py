@@ -1,17 +1,13 @@
 import random
-#name = input("Zeg je naam ")
-name = "jan"
+word_list = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
 
-print ("Welkom, " + name + ",Klaar voor een lekker potje galgje.")
+name = input("Wat is je naam? ")
+print("Welkom " + name)
+print("Oké dit zijn de spelregels. Er wordt een woord gegeven, en de bedoeling is dat je het woord te weten komt door middel van letters raden of het woord raden.")
 
-word_list = ["ïnformatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
+def get_word(word_list):
+    word = random.choice(word_list)
+    return word.upper()
+    print("het woord heeft", len(word))
 
-def get_word():
-  word = random.choice(word_list)
-  return word
 
-woord = get_word()
-
-print(woord)
-print(len(woord))
-print("_" + str(len(woord)))
