@@ -57,7 +57,7 @@ def play(word):
     if guessed:
         print("Geficiteerd! je hebt gewonnen")
     else:
-        print("Sorry, maar je hebt het woord niet geraden, het woord was " + word + ". Misschien volgende keer!")
+        print("Sorry, maar je hebt het woord niet geraden, het woord was " + word + ". Misschien volgende keer.")
 
 
 
