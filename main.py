@@ -55,7 +55,7 @@ def play(word):
         print(word_completion)
         print("\n")
     if guessed:
-        print("Geficiteerd! je hebt gewonnen")
+        print("Geficiteerd! je hebt gewonnen!")
     else:
         print("Sorry, maar je hebt het woord niet geraden, het woord was " + word + ". Misschien volgende keer.")
 
